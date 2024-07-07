@@ -5,7 +5,7 @@ y_values = [x**2 for x in x_values]
 
 plt.style.use('Solarize_Light2')
 fig,ax = plt.subplots()
-ax.scatter(x_values,y_values,c=(0, 0.9, 0.8),s=1) #s definiuje wielkość punktu, c definiuje color
+ax.scatter(x_values,y_values,c=y_values, cmap=plt.cm.cool,s=10) #s definiuje wielkość punktu, c definiuje color
 
 #zdefiniowanie tytułu wykresów i osi
 ax.set_title("Kwadraty liczb", fontsize = 20)
