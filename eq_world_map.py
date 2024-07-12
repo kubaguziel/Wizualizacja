@@ -14,7 +14,6 @@ with open(filename) as f:
 
     all_eq_dicts = all_eq_data['features'] #pobiera dane związane z kluczem 'features' i umieszczamy je w słowniku all_eq_dicts
     print(len(all_eq_dicts))
-    print(all_eq_dicts)
     mags,lons,lats,hover_texts = [],[],[],[]
 
     for eq_dict in all_eq_dicts:
